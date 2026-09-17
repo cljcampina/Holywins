@@ -76,6 +76,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Sorveteria_Tropical.jpg",
     instagram: "https://www.instagram.com/sorvetetropicalmellf?stkn=MTYwNm45MmF5NzN6Mw==",
   },
+  {
+    nome: "Padaria Ovelha",
+    logo: "assets/patrocinadores/Padaria_Ovelha.jpeg",
+    instagram: "https://www.instagram.com/confeitariacampina?stkn=MXRkY3Rwd3VidXVmYw==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
