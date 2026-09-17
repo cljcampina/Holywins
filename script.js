@@ -71,6 +71,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Truck_Sinos.png",
     instagram: "https://www.instagram.com/trucksinos?stkn=bGhpbXI1aHduaTZ1",
   },
+  {
+    nome: "Sorveteria Tropical",
+    logo: "assets/patrocinadores/Sorveteria_Tropical.jpg",
+    instagram: "https://www.instagram.com/sorvetetropicalmellf?stkn=MTYwNm45MmF5NzN6Mw==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
