@@ -89,6 +89,7 @@ const PATROCINADORES = [
   {
     nome: "Big Motors",
     logo: "assets/patrocinadores/Big_Motors.png",
+    instagram: null,
   },
   {
     nome: "Giacomelli Films",
