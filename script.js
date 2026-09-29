@@ -88,11 +88,11 @@ const PATROCINADORES = [
   },
   {
     nome: "Big Motors",
-    logo: "assets/patrocinadores/Big_Motors.pdf",
+    logo: "assets/patrocinadores/Big_Motors.png",
   },
   {
     nome: "Giacomelli Films",
-    logo: "assets/patrocinadores/Giacomelli_Films.pdf",
+    logo: "assets/patrocinadores/Giacomelli_Films.png",
     instagram: "https://www.instagram.com/giacomelli.films?stkn=bDZ1amN3NDg4eHdr",
   },
   {
