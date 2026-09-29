@@ -106,6 +106,16 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Loja_Ina_Agropecuaria_Ferragem.jpeg",
     instagram: "https://www.instagram.com/lojainashopping?stkn=MXZ4ZGlqY2UxaDA3NQ==",
   },
+  {
+    nome: "Farmacias Associadas",
+    logo: "assets/patrocinadores/Farmacias_Associadas.jpeg",
+    instagram: "https://www.instagram.com/associadascampina_?stkn=MWduaGozc3Nzamtkeg==",
+  },
+  {
+    nome: "Morena Fashion Bazar",
+    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    instagram: "https://www.instagram.com/morena_fashion_bazar?stkn=NXVveTR1eWZoMjY=",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
