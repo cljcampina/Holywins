@@ -81,6 +81,30 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Padaria_Ovelha.jpeg",
     instagram: "https://www.instagram.com/confeitariacampina?stkn=MXRkY3Rwd3VidXVmYw==",
   },
+  {
+    nome: "Makofer Metalurgica",
+    logo: "assets/patrocinadores/Makofer_Metalurgica.jpeg",
+    instagram: "https://www.instagram.com/m.makofer?stkn=MTRneHJldmIwYmZzYg==",
+  },
+  {
+    nome: "Big Motors",
+    logo: "assets/patrocinadores/Big_Motors.pdf",
+  },
+  {
+    nome: "Giacomelli Films",
+    logo: "assets/patrocinadores/Giacomelli_Films.pdf",
+    instagram: "https://www.instagram.com/giacomelli.films?stkn=bDZ1amN3NDg4eHdr",
+  },
+  {
+    nome: "Criar Lembranças",
+    logo: "assets/patrocinadores/Criar_Lembranças.jpeg",
+    instagram: "https://www.instagram.com/criar.lembrancas.fmd?stkn=MXV0ajhpNWJvdzBieA==",
+  },
+  {
+    nome: "Loja Iná Agropecuária & Ferragem",
+    logo: "assets/patrocinadores/Loja_Ina_Agropecuaria_Ferragem.jpeg",
+    instagram: "https://www.instagram.com/lojainashopping?stkn=MXZ4ZGlqY2UxaDA3NQ==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
