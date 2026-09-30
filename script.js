@@ -146,6 +146,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Sul_Marcenaria.jpg",
     instagram: "https://www.instagram.com/sulmarcenaria?stkn=MTl0a2R6dWJvZjBudA==",
   },
+  {
+    nome: "Ferragem Sul Cores",
+    logo: "assets/patrocinadores/Ferragem_Sul_Cores.jpeg",
+    whatsapp: "https://wa.me/5551989553664",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
