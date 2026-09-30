@@ -1304,6 +1304,55 @@ a:focus-visible, button:focus-visible {
   color: rgba(185, 200, 230, 0.5);
 }
 
+/* ===================== BOTÃO "VOLTAR AO TOPO" =====================
+   Fica fixo no canto da tela (responsivo: menor e mais próximo da borda
+   no mobile). Some/aparece via classe ".is-visivel", controlada pelo JS
+   conforme a rolagem da página. */
+.btn-topo {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 90;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--cor-destaque), var(--cor-destaque-forte));
+  color: var(--cor-branco);
+  box-shadow: 0 10px 24px rgba(47, 111, 237, 0.4);
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+  transition: opacity var(--transicao), transform var(--transicao), box-shadow var(--transicao);
+}
+
+.btn-topo.is-visivel {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.btn-topo:hover {
+  box-shadow: 0 14px 30px rgba(47, 111, 237, 0.55);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 640px) {
+  .btn-topo {
+    right: 1rem;
+    bottom: 1rem;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-topo { transition: opacity var(--transicao); }
+  .btn-topo:hover { transform: none; }
+}
+
 /* ===================== MODAL ===================== */
 .modal {
   position: fixed;
