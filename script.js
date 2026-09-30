@@ -155,7 +155,7 @@ const PATROCINADORES = [
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
 // já confirmados acima. Reduza esse número conforme forem fechando novos.
-const PATROCINADORES_MISTERIO_QTD = 3;
+const PATROCINADORES_MISTERIO_QTD = 1;
 
 /* ========================================================= */
 
