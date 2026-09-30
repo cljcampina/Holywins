@@ -118,7 +118,7 @@ const PATROCINADORES = [
   },
   {
     nome: "Padaria Delicias da Gi",
-    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    logo: "assets/patrocinadores/Delicias_da_Gi.jpeg",
     instagram: "https://www.instagram.com/deliciasdagi002?stkn=MTcxbzVwMzR5b3psbQ==",
   },
   {
