@@ -123,27 +123,27 @@ const PATROCINADORES = [
   },
   {
     nome: "M.A Telhado Mágico",
-    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    logo: "assets/patrocinadores/M.A_Telhado_Magico.jpeg",
     instagram: "https://www.instagram.com/matelhadosmagico?stkn=M2pwdjU2eXZuZzU=",
   },
   {
     nome: "Carvalho & Branco",
-    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    logo: "assets/patrocinadores/Carvalho_&_Branco.jpeg",
     instagram: "https://www.instagram.com/_carvalhoebranco?stkn=MWpwbnJmd2RnN3d0ZA==",
   },
   {
     nome: "Point Press Camisetas",
-    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    logo: "assets/patrocinadores/Point_Press_Camisetas.jpeg",
     instagram: "https://www.instagram.com/poin_tpress?stkn=MWlxaTBoZDQ3NW5hYg==",
   },
   {
     nome: "Frangos Assados do Greff",
-    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    logo: "assets/patrocinadores/Frango_Assado_Greff.jpeg",
     whatsapp: "https://wa.me/5551991926461",
   },
   {
     nome: "Sul Marcenaria",
-    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    logo: "assets/patrocinadores/Sul_Marcenaria.jpg",
     instagram: "https://www.instagram.com/sulmarcenaria?stkn=MTl0a2R6dWJvZjBudA==",
   },
 ];
@@ -548,13 +548,16 @@ function iniciarPatrocinadores() {
   const track = document.getElementById("patroTrack");
   if (!track) return;
 
-  function criarCardLogo(patrocinador) {
+   function criarCardLogo(patrocinador) {
     const card = document.createElement("a");
     card.className = "patro-card";
-    card.href = patrocinador.instagram;
+    // Prioriza o Instagram; se o patrocinador não tiver, usa o WhatsApp.
+    const link = patrocinador.instagram || patrocinador.whatsapp;
+    const rede = patrocinador.instagram ? "Instagram" : "WhatsApp";
+    card.href = link;
     card.target = "_blank";
     card.rel = "noopener";
-    card.setAttribute("aria-label", `${patrocinador.nome} no Instagram`);
+    card.setAttribute("aria-label", `${patrocinador.nome} no ${rede}`);
 
     const img = document.createElement("img");
     img.src = patrocinador.logo;
