@@ -89,7 +89,7 @@ const PATROCINADORES = [
   {
     nome: "Big Motors",
     logo: "assets/patrocinadores/Big_Motors.png",
-    instagram: null,
+    whatsapp: "https://wa.me/5551992844325",
   },
   {
     nome: "Giacomelli Films",
@@ -115,6 +115,36 @@ const PATROCINADORES = [
     nome: "Morena Fashion Bazar",
     logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
     instagram: "https://www.instagram.com/morena_fashion_bazar?stkn=NXVveTR1eWZoMjY=",
+  },
+  {
+    nome: "Padaria Delicias da Gi",
+    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    instagram: "https://www.instagram.com/deliciasdagi002?stkn=MTcxbzVwMzR5b3psbQ==",
+  },
+  {
+    nome: "M.A Telhado Mágico",
+    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    instagram: "https://www.instagram.com/matelhadosmagico?stkn=M2pwdjU2eXZuZzU=",
+  },
+  {
+    nome: "Carvalho & Branco",
+    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    instagram: "https://www.instagram.com/_carvalhoebranco?stkn=MWpwbnJmd2RnN3d0ZA==",
+  },
+  {
+    nome: "Point Press Camisetas",
+    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    instagram: "https://www.instagram.com/poin_tpress?stkn=MWlxaTBoZDQ3NW5hYg==",
+  },
+  {
+    nome: "Frangos Assados do Greff",
+    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    whatsapp: "https://wa.me/5551991926461",
+  },
+  {
+    nome: "Sul Marcenaria",
+    logo: "assets/patrocinadores/Morena_Fashion_Bazar.jpg",
+    instagram: "https://www.instagram.com/sulmarcenaria?stkn=MTl0a2R6dWJvZjBudA==",
   },
 ];
 
