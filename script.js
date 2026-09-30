@@ -165,6 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
   iniciarSantos();
   iniciarPatrocinadores();
   iniciarScrollPatrocinadores();
+  iniciarBotaoTopo();
   iniciarCompartilhamento();
 });
 
@@ -586,6 +587,25 @@ function iniciarPatrocinadores() {
   // 1ª cópia + 2ª cópia (clone) lado a lado dentro da trilha
   conjunto.forEach((card) => track.appendChild(card));
   conjunto.forEach((card) => track.appendChild(card.cloneNode(true)));
+}
+
+/* ===================== BOTÃO "VOLTAR AO TOPO" =====================
+   Mostra o botão só depois que a pessoa rola a página (evita ele aparecer
+   já no topo, sem necessidade) e leva de volta ao início com rolagem suave. */
+function iniciarBotaoTopo() {
+  const btn = document.getElementById("btnTopo");
+  if (!btn) return;
+
+  function atualizarVisibilidade() {
+    btn.classList.toggle("is-visivel", window.scrollY > 500);
+  }
+
+  atualizarVisibilidade();
+  window.addEventListener("scroll", atualizarVisibilidade, { passive: true });
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 }
 
 /* ===================== COMPARTILHAMENTO ===================== */
