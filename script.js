@@ -151,6 +151,16 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Ferragem_Sul_Cores.jpeg",
     whatsapp: "https://wa.me/5551989553664",
   },
+  {
+    nome: "Vyaro Viagens",
+    logo: "assets/patrocinadores/Vyaro_Viagens.jpeg",
+    instagram: "https://www.instagram.com/vyaro.viagens?stkn=M2MxMHkzMDUybHZ4",
+  },
+  {
+    nome: "Sinosgaz",
+    logo: "assets/patrocinadores/Sinosgaz.jpeg",
+    whatsapp: "https://wa.me/5551998060063",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
