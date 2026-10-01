@@ -161,11 +161,21 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Sinosgaz.jpeg",
     whatsapp: "https://wa.me/5551998060063",
   },
+  {
+    nome: "Açai Kioski",
+    logo: "assets/patrocinadores/Acai_Kioski.jpeg",
+    whatsapp: "https://wa.me/5551993441912",
+  },
+  {
+    nome: "Espaço Florescer",
+    logo: "assets/patrocinadores/Florescer_Educacao.jpeg",
+    instagram: "https://www.instagram.com/espacoflorescer_multi?stkn=amw5dDczM2MzZW9i",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
 // já confirmados acima. Reduza esse número conforme forem fechando novos.
-const PATROCINADORES_MISTERIO_QTD = 1;
+const PATROCINADORES_MISTERIO_QTD = 0;
 
 /* ========================================================= */
 
