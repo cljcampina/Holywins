@@ -153,7 +153,7 @@ const PATROCINADORES = [
   },
   {
     nome: "Vyaro Viagens",
-    logo: "assets/patrocinadores/Vyaro_Viagens.jpeg",
+    logo: "assets/patrocinadores/Vyaro_Viagens.png",
     instagram: "https://www.instagram.com/vyaro.viagens?stkn=M2MxMHkzMDUybHZ4",
   },
   {
@@ -170,6 +170,11 @@ const PATROCINADORES = [
     nome: "Espaço Florescer",
     logo: "assets/patrocinadores/Florescer_Educacao.jpeg",
     instagram: "https://www.instagram.com/espacoflorescer_multi?stkn=amw5dDczM2MzZW9i",
+  },
+  {
+    nome: "Pizzaria Mangiare",
+    logo: "assets/patrocinadores/Pizzaria_Mangiare.jpeg",
+    instagram: "https://www.instagram.com/pizza_riamangiare?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
   },
 ];
 
