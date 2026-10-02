@@ -186,6 +186,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Estetica_Nicole.jpg",
     instagram: "https://www.instagram.com/nicoleschuch.esteticista?stkn=ODhleXlwcTF2MHZ3&utm_source=qr",
   },
+  {
+    nome: "S.O.S Bike",
+    logo: "assets/patrocinadores/S.O.S_Bike.jpeg",
+    instagram: "https://www.instagram.com/_s.o.s.bike_?stkn=MTJ3MHJiem95ejNmaw%3D%3D&utm_source=qr",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
