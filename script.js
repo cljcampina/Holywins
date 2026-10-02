@@ -176,6 +176,16 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Pizzaria_Mangiare.jpeg",
     instagram: "https://www.instagram.com/pizza_riamangiare?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
   },
+  {
+    nome: "AmorAmora",
+    logo: "assets/patrocinadores/AmorAmora.jpeg",
+    instagram: "https://www.instagram.com/amoramora.ts?stkn=aDVkaHEydHY2eXM=",
+  },
+  {
+    nome: "Estética Nicole",
+    logo: "assets/patrocinadores/Estetica_Nicole.jpg",
+    instagram: "https://www.instagram.com/nicoleschuch.esteticista?stkn=ODhleXlwcTF2MHZ3&utm_source=qr",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
