@@ -191,6 +191,21 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/S.O.S_Bike.jpeg",
     instagram: "https://www.instagram.com/_s.o.s.bike_?stkn=MTJ3MHJiem95ejNmaw%3D%3D&utm_source=qr",
   },
+  {
+    nome: "Aurora Fashion",
+    logo: "assets/patrocinadores/Aurora_Fashion.jpeg",
+    instagram: "https://www.instagram.com/loja.aurorafashion?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+  },
+  {
+    nome: "Marmitas da Tita",
+    logo: "assets/patrocinadores/Marmitas_Tita.jpeg",
+    instagram: "https://www.instagram.com/marmitas_da_tita?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+  },
+  {
+    nome: "VS Tintas",
+    logo: "assets/patrocinadores/VS_Tintas.jpeg",
+    instagram: "https://www.instagram.com/loja.vstintas?stkn=cnBsMDlhMWVrdGk2",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
