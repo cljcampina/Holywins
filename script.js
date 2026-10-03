@@ -206,6 +206,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/VS_Tintas.jpeg",
     instagram: "https://www.instagram.com/loja.vstintas?stkn=cnBsMDlhMWVrdGk2",
   },
+  {
+    nome: "Click Festas e Lumaki",
+    logo: "assets/patrocinadores/Lumaki_Click_Festas.jpeg",
+    instagram: "https://www.instagram.com/clickfestadecoracoes?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
