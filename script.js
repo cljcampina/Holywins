@@ -211,6 +211,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Lumaki_Click_Festas.jpeg",
     instagram: "https://www.instagram.com/clickfestadecoracoes?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
   },
+  {
+    nome: "Pollysport",
+    logo: "assets/patrocinadores/Pollysport.png",
+    instagram: "https://www.instagram.com/pollysport_?stkn=MTNlYWZzNzZwZXRkaQ==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
