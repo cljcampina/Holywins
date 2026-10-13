@@ -216,6 +216,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Pollysport.png",
     instagram: "https://www.instagram.com/pollysport_?stkn=MTNlYWZzNzZwZXRkaQ==",
   },
+  {
+    nome: "Vieira Rosa Construções",
+    logo: "assets/patrocinadores/Vieira_Rosa_Construcoes.jpeg",
+    instagram: "https://www.instagram.com/cristianovieira_rosa?xtok=MWRjdTU4eTNiYTdkdw==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
