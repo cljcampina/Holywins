@@ -221,6 +221,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Vieira_Rosa_Construcoes.jpeg",
     instagram: "https://www.instagram.com/cristianovieira_rosa?xtok=MWRjdTU4eTNiYTdkdw==",
   },
+  {
+    nome: "Gráfica Esfera",
+    logo: "assets/patrocinadores/Grafica_esfera.jpg",
+    instagram: "https://www.instagram.com/graficaesfera?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
