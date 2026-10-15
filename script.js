@@ -226,6 +226,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Grafica_esfera.jpg",
     instagram: "https://www.instagram.com/graficaesfera?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==",
   },
+  {
+    nome: "Casa do Pastel",
+    logo: "assets/patrocinadores/Casa_Pastel.jpeg",
+    instagram: "https://www.instagram.com/casadopastel43?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
