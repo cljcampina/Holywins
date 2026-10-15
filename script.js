@@ -231,6 +231,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Casa_Pastel.jpeg",
     instagram: "https://www.instagram.com/casadopastel43?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw==",
   },
+  {
+    nome: "O Básico",
+    logo: "assets/patrocinadores/O_Basico.jpeg",
+    instagram: "https://www.instagram.com/o_basico_da_campina?mdxt=MWR1d2pyN2x6ejZwaw==",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
