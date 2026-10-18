@@ -236,6 +236,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/O_Basico.jpeg",
     instagram: "https://www.instagram.com/o_basico_da_campina?mdxt=MWR1d2pyN2x6ejZwaw==",
   },
+  {
+    nome: "Belo Sabore",
+    logo: "assets/patrocinadores/Belo_Sabore.jpeg",
+    instagram: "https://www.instagram.com/belosabore.oficial?cplk=bTRncWFrZzcweHcw",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
