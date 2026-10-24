@@ -241,6 +241,11 @@ const PATROCINADORES = [
     logo: "assets/patrocinadores/Belo_Sabore.jpeg",
     instagram: "https://www.instagram.com/belosabore.oficial?cplk=bTRncWFrZzcweHcw",
   },
+  {
+    nome: "HD Navalhas",
+    logo: "assets/patrocinadores/HD_Navalhas.jpeg",
+    whatsapp: "https://wa.me/5551997333137",
+  },
 ];
 
 // Quantos cards "mistério" (?) mostrar no carrossel além dos patrocinadores
